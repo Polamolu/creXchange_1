@@ -2,12 +2,12 @@ import React from 'react'
 
 function TrustLogos() {
   const partners = [
-    { name: 'HDFC Bank', logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/HDFC_Bank_Logo.svg' },
-    { name: 'ICICI Bank', logo: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/ICICI_Bank_Logo.svg' },
-    { name: 'SBI', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/State_Bank_of_India_logo.svg/500px-State_Bank_of_India_logo.svg.png' },
-    { name: 'Amazon', logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg' },
-    { name: 'Flipkart', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Flipkart_Logo.svg' },
-    { name: 'Swiggy', logo: 'https://upload.wikimedia.org/wikipedia/commons/0/05/Swiggy_logo.svg' }
+    { name: 'HDFC Bank', logo: 'https://logos-world.net/wp-content/uploads/2021/02/HDFC-Bank-Logo.png' },
+    { name: 'ICICI Bank', logo: 'https://logos-world.net/wp-content/uploads/2021/02/ICICI-Bank-Logo.png' },
+    { name: 'SBI', logo: 'https://logos-world.net/wp-content/uploads/2021/02/SBI-Logo.png' },
+    { name: 'Amazon', logo: 'https://logos-world.net/wp-content/uploads/2020/04/Amazon-Logo.png' },
+    { name: 'Flipkart', logo: 'https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Logo.png' },
+    { name: 'Swiggy', logo: 'https://logos-world.net/wp-content/uploads/2020/11/Swiggy-Logo.png' }
   ]
 
   const mediaLogos = [
@@ -25,7 +25,7 @@ function TrustLogos() {
             <h4 className="trust-title">Trusted Partners</h4>
             <div className="logos-grid">
               {partners.map((partner, index) => (
-                <div key={index} className="logo-card">
+                <div key={index} className="logo-card" data-name={partner.name}>
                   <img src={partner.logo} alt={`${partner.name} logo`} className="partner-logo" />
                   <span className="coming-soon">Coming Soon</span>
                 </div>

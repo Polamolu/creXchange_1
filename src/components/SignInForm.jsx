@@ -39,12 +39,16 @@ function SignInForm({ onBack }) {
             </div>
 
             <div className="social-signin">
-              <button className="social-btn google-btn">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google logo" className="social-logo" />
+              <button className="social-btn google-btn" style={{display: 'none'}}>
                 Continue with Google
               </button>
+              <button className="social-btn google-btn">
+                Continue with Google
+              </button>
+              <button className="social-btn linkedin-btn" style={{display: 'none'}}>
+                Continue with LinkedIn
+              </button>
               <button className="social-btn linkedin-btn">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg" alt="LinkedIn logo" className="social-logo" />
                 Continue with LinkedIn
               </button>
             </div>
