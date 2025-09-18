@@ -281,11 +281,11 @@
   box-shadow: var(--shadow-md);
 }
 
-.logo-text {
-  font-weight: 700;
-  font-size: 1.125rem;
-  color: var(--text-primary);
-  margin-bottom: 0.5rem;
+.partner-logo {
+  max-width: 80px;
+  height: 40px;
+  object-fit: contain;
+  margin-bottom: 0.75rem;
 }
 
 .coming-soon {
@@ -366,6 +366,15 @@
   padding: 0.75rem 0;
   color: var(--text-secondary);
   border-bottom: 1px solid #f3f4f6;
+  display: flex;
+  align-items: center;
+}
+
+.benefit .checkmark {
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
 }
 
 .benefit:last-child {
@@ -512,6 +521,16 @@
   padding: 0.75rem 0;
   color: var(--text-secondary);
   border-bottom: 1px solid #f3f4f6;
+  display: flex;
+  align-items: center;
+}
+
+.pricing-features .feature::before {
+  content: '✓';
+  color: var(--accent-color);
+  font-weight: 600;
+  margin-right: 0.75rem;
+  flex-shrink: 0;
 }
 
 .pricing-features .feature:last-child {
@@ -1033,6 +1052,12 @@
 
 .social-icon {
   font-size: 1.25rem;
+}
+
+.social-logo {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.75rem;
 }
 
 .divider {

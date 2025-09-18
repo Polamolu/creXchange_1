@@ -22,10 +22,10 @@ function UserTypeSelection({ onBack }) {
             <div className="user-icon">🛍️</div>
             <h3 className="user-title">For Borrowers</h3>
             <div className="user-benefits">
-              <div className="benefit">✓ Access premium card offers without owning cards</div>
-              <div className="benefit">✓ Save up to 30% on your favorite brands</div>
-              <div className="benefit">✓ Instant virtual card access</div>
-              <div className="benefit">✓ No annual fees or hidden charges</div>
+              <div className="benefit"><span className="checkmark">✓</span><span>Access premium card offers without owning cards</span></div>
+              <div className="benefit"><span className="checkmark">✓</span><span>Save up to 30% on your favorite brands</span></div>
+              <div className="benefit"><span className="checkmark">✓</span><span>Instant virtual card access</span></div>
+              <div className="benefit"><span className="checkmark">✓</span><span>No annual fees or hidden charges</span></div>
             </div>
             <div className="why-join">
               <strong>Why join now?</strong>
@@ -38,10 +38,10 @@ function UserTypeSelection({ onBack }) {
             <div className="user-icon">💳</div>
             <h3 className="user-title">For Card Sharers</h3>
             <div className="user-benefits">
-              <div className="benefit">✓ Earn commission on every transaction</div>
-              <div className="benefit">✓ Help others while making money</div>
-              <div className="benefit">✓ Complete control over sharing limits</div>
-              <div className="benefit">✓ Bank-grade security for all transactions</div>
+              <div className="benefit"><span className="checkmark">✓</span><span>Earn commission on every transaction</span></div>
+              <div className="benefit"><span className="checkmark">✓</span><span>Help others while making money</span></div>
+              <div className="benefit"><span className="checkmark">✓</span><span>Complete control over sharing limits</span></div>
+              <div className="benefit"><span className="checkmark">✓</span><span>Bank-grade security for all transactions</span></div>
             </div>
             <div className="why-join">
               <strong>Why join now?</strong>
