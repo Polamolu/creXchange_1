@@ -282,17 +282,20 @@
 }
 
 .partner-logo {
-  max-width: 80px;
-  height: 40px;
-  object-fit: contain;
+  width: 120px;
+  height: 50px;
   margin-bottom: 0.75rem;
-  background-color: white;
-  padding: 4px;
+  background-color: transparent;
   border-radius: 4px;
+  display: block;
 }
 
-.partner-logo:not([src]) {
-  display: none;
+.partner-name {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+  display: block;
 }
 
 .logo-card {
@@ -304,16 +307,9 @@
   border-radius: var(--border-radius);
   border: 1px solid var(--border-color);
   transition: var(--transition);
-  min-height: 120px;
+  min-height: 140px;
   justify-content: center;
-}
-
-.logo-card::before {
-  content: attr(data-name);
-  font-weight: 600;
-  color: var(--text-primary);
-  margin-bottom: 0.5rem;
-  font-size: 0.875rem;
+  text-align: center;
 }
 
 .coming-soon {
