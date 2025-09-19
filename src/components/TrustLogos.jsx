@@ -4,23 +4,23 @@ function TrustLogos() {
   const partners = [
     { 
       name: 'HDFC Bank', 
-      logoUrl: 'https://logos-world.net/wp-content/uploads/2021/02/HDFC-Bank-Logo.png',
-      fallbackUrl: 'https://companieslogo.com/img/orig/HDB-4f2d4c9e.png'
+      logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/2/28/HDFC_Bank_Logo.svg',
+      fallbackUrl: 'https://logos-world.net/wp-content/uploads/2021/02/HDFC-Bank-Logo.png'
     },
     { 
       name: 'ICICI Bank', 
-      logoUrl: 'https://logos-world.net/wp-content/uploads/2021/02/ICICI-Bank-Logo.png',
-      fallbackUrl: 'https://companieslogo.com/img/orig/IBN-f0c2d8b4.png'
+      logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/ICICI_Bank_Logo.svg',
+      fallbackUrl: 'https://logos-world.net/wp-content/uploads/2021/02/ICICI-Bank-Logo.png'
     },
     { 
       name: 'SBI', 
-      logoUrl: 'https://logos-world.net/wp-content/uploads/2021/02/SBI-Logo.png',
-      fallbackUrl: 'https://companieslogo.com/img/orig/SBIN.NS-8e4d4c9d.png'
+      logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/c/cc/SBI-logo.svg',
+      fallbackUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/SBI-logo.svg/500px-SBI-logo.svg.png'
     },
     { 
       name: 'Axis Bank', 
-      logoUrl: 'https://logos-world.net/wp-content/uploads/2021/02/Axis-Bank-Logo.png',
-      fallbackUrl: 'https://companieslogo.com/img/orig/AXISBANK.NS-2d5c8b7a.png'
+      logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Axis_Bank_logo.svg',
+      fallbackUrl: 'https://logos-world.net/wp-content/uploads/2021/02/Axis-Bank-Logo.png'
     },
     { 
       name: 'Amazon', 
