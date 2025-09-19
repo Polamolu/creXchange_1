@@ -19,7 +19,7 @@ function TrustLogos() {
     },
     { 
       name: 'Axis Bank', 
-      logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Axis_Bank_logo.svg',
+      logoUrl: "https://en.wikipedia.org/wiki/Axis_Bank#/media/File:AXISBank_Logo.svg",
       fallbackUrl: 'https://logos-world.net/wp-content/uploads/2021/02/Axis-Bank-Logo.png'
     },
     { 
