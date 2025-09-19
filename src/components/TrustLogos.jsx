@@ -9,7 +9,7 @@ function TrustLogos() {
     },
     { 
       name: 'ICICI Bank', 
-      logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/1d/ICICI_Bank_Logo.svg',
+      logoUrl: "https://upload.wikimedia.org/wikipedia/commons/1/12/ICICI_Bank_Logo.svg",
       fallbackUrl: 'https://logos-world.net/wp-content/uploads/2021/02/ICICI-Bank-Logo.png'
     },
     { 
