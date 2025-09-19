@@ -71,7 +71,7 @@ function TrustLogos() {
                       {partner.name}
                     </div>
                   </div>
-                  <span className="partner-name">{partner.name}</span>
+  
                   
                 </div>
               ))}
